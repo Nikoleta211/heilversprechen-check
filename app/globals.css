@@ -1,0 +1,41 @@
+:root {
+  --pink: #e91e63;
+  --pink-light: #f06292;
+  --pink-muted: #c2185b;
+  --grey-dark: #505152;
+  --grey-mid: #888888;
+  --bg-light: #fff8f8;
+  --bg-section: #fdf0f4;
+  --white: #ffffff;
+  --border: rgba(233, 30, 99, 0.2);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --ampel-gruen: #2e7d4f;
+  --ampel-gruen-bg: #eaf6ef;
+  --ampel-gelb: #b8860b;
+  --ampel-gelb-bg: #fdf3e0;
+  --ampel-rot: #c62828;
+  --ampel-rot-bg: #fdeaea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-light);
+  color: var(--grey-dark);
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+}
