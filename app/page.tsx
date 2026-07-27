@@ -45,13 +45,13 @@ const ROT_WOERTER = [
 
 const GELB_WOERTER = [
   "schmerzen weg",
-  "abnehmen",
   "wirkt gegen",
   "lindert",
-  "kg in",
-  "gewicht verlieren",
   "heilversprechen",
   "studien belegen",
+  "seit ich das nehme",
+  "seit ich es nehme",
+  "dank des produkts",
 ];
 
 const BEISPIELE = [
@@ -65,7 +65,7 @@ const BEISPIELE = [
   },
   {
     situation: "Gewicht",
-    lieber: "Statt: \"10 kg in 3 Wochen abgenommen.\"\nBesser: \"Ich fühl mich seit einer Weile einfach wohler in meinen Klamotten.\"",
+    lieber: "Statt: \"Seit ich [Produkt] nehme, hab ich 10kg in 3 Wochen abgenommen.\"\nBesser: \"Ich hab 10kg abgenommen, seit ich meine Morgenroutine umgestellt hab. [Produkt] ist Teil davon, aber nicht der einzige Grund.\" Reine Zahlen zu deiner eigenen Reise sind völlig normal, riskant wird es erst, wenn du sie als direkte Wirkung des Produkts darstellst.",
   },
   {
     situation: "Wohlbefinden",
